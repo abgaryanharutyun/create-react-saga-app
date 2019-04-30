@@ -1,0 +1,14 @@
+{
+  "name": "create-react-saga-app",
+  "version": "1.0.0",
+  "description": "Create React apps with saga ",
+  "main": "index.js",
+  "repository": "https://github.com/abgaryanharutyun/create-react-saga-app.git",
+  "author": "Harutyun Abgaryan <harutyunabgaryan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "create-react-app": "^3.0.0",
+    "shelljs": "^0.8.3"
+  }
+}
