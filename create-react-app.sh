@@ -1,4 +1,3 @@
 #!/bin/bash
-
-
-echo "222222222";
+echo $1
+create-react-app $1
