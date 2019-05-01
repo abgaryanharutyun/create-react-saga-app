@@ -1,4 +1,3 @@
-const shell = require('shelljs');
 
 const args = process.argv.slice(2);
 
@@ -7,6 +6,10 @@ if (!args[0]){
   process.exit();
 }
 const appName = args[0];
+
+//create react app
+
+require('./bin/create-app')(appName);
 
 // installing necessary packages
 require('./bin/install-packages')(appName);
