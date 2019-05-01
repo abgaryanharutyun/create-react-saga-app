@@ -1,6 +1,6 @@
 {
   "name": "@tidepoollabs/react-saga-app",
-  "version": "0.0.6-beta",
+  "version": "0.0.1-beta",
   "description": "Create React apps with saga ",
   "main": "index.js",
   "repository": "https://github.com/abgaryanharutyun/create-react-saga-app.git",
