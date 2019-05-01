@@ -1,6 +1,6 @@
 {
-  "name": "create-react-saga-app",
-  "version": "1.0.0",
+  "name": "@tidepoollabs/react-saga-app",
+  "version": "0.0.6-beta",
   "description": "Create React apps with saga ",
   "main": "index.js",
   "repository": "https://github.com/abgaryanharutyun/create-react-saga-app.git",
@@ -16,5 +16,8 @@
     "redux-saga": "^1.0.2",
     "reselect": "^4.0.0",
     "shelljs": "^0.8.3"
+  },
+  "bin": {
+    "react-saga-app": "./create-react-app.js"
   }
 }
