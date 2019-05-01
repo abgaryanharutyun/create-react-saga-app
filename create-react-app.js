@@ -17,6 +17,9 @@ require('./bin/install-packages')(appName);
 //creating folder
 require('./bin/create-folder-structure')(appName);
 
+//sync initial template
+require('./bin/sync-template')(appName);
+
 
 
 

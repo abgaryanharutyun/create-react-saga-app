@@ -5,10 +5,12 @@ const packages = [
   'redux-saga',
   'redux',
   'react-router-dom',
-  'deepmerge'
+  'deepmerge',
+  'redux-devtools-extension',
+  'axios',
+  'bluebird'
 ];
 module.exports = function (appName) {
-  shell.exec(`./create-react-app.sh ${appName}`);
   const necessaryPackages = packages.join(' ');
   shell.exec(`cd ./${appName} && yarn add ${necessaryPackages}`);
 }
