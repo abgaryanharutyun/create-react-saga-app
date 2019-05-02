@@ -11,7 +11,7 @@ $ npm install -g @tidepoolllabs/react-saga-app
 ## Usage
 
 ```bash
-react-saga-app APP_NAME
+react-saga-app new APP_NAME
 ```
 
 ## Guides
