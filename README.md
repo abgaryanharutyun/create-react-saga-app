@@ -3,7 +3,7 @@
 
 [![CircleCI](https://circleci.com/gh/abgaryanharutyun/create-react-saga-app/tree/master.svg?style=svg)](https://circleci.com/gh/abgaryanharutyun/create-react-saga-app/tree/master)
 
-[![npm version](https://badge.fury.io/js/%40tidepoollabs%2Freact-saga-app.svg)](https://badge.fury.io/js/%40tidepoollabs%2Freact-saga-app)
+
 ## Installation
 
 ```bash
