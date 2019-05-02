@@ -1,4 +1,6 @@
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/4b299f3b2ce07b4056ba/maintainability)](https://codeclimate.com/github/abgaryanharutyun/create-react-saga-app/maintainability)
+
 ## Installation
 
 ```bash
