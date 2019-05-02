@@ -7,7 +7,7 @@
 ## Installation
 
 ```bash
-$ npm install -g @tidepoolllabs/react-saga-app
+$ npm install -g @tidepoollabs/react-saga-app
 ```
 
 ## Usage
