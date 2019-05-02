@@ -12,8 +12,8 @@ const folders = [
   'services'
 ];
 
-module.exports = function(appName, executedPlace){ 
+module.exports = function({ appName, executedPlace }){ 
   folders.map(function(folder) {
     shell.mkdir('-p', `${executedPlace}/${appName}/src/${folder}`);
   });
-}
+};

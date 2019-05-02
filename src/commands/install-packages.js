@@ -10,7 +10,7 @@ const packages = [
   'axios',
   'bluebird'
 ];
-module.exports = function (appName, executedPlace) {
+module.exports = function ({ appName, executedPlace }) {
   const necessaryPackages = packages.join(' ');
   shell.exec(`cd ${executedPlace}/${appName} && yarn add ${necessaryPackages}`);
-}
+};

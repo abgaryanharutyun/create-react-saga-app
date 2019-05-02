@@ -11,6 +11,8 @@
     "copy-dir": "^0.4.0",
     "create-react-app": "^3.0.0",
     "deepmerge": "^3.2.0",
+    "fs-extra": "^7.0.1",
+    "move-file": "^1.2.0",
     "react-router-dom": "^5.0.0",
     "redux": "^4.0.1",
     "redux-saga": "^1.0.2",
@@ -19,5 +21,8 @@
   },
   "bin": {
     "react-saga-app": "./create-react-app.js"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1"
   }
 }
