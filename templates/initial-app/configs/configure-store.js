@@ -3,7 +3,7 @@ import createSagaMiddleware, { END } from 'redux-saga';
 import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly';
 import appState from '../reducers';
 import rootSaga from '../sagas';
-import { loadState, saveState } from './localStorage';
+import { loadState, saveState } from './local-storage';
 
 const persistedState = loadState();
 const configureStore = () => {

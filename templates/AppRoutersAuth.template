@@ -1,0 +1,25 @@
+import React from 'react';
+import {
+  BrowserRouter,
+  Route, 
+  Switch,
+} from 'react-router-dom';
+import { connect } from 'react-redux';
+import {
+  isAuth, isNotAuth,
+} from '../configs/auth';
+import RegistrationPage from './Authorization/RegistrationPage';
+import LoginPage from './Authorization/LoginPage';
+import ProfilePage from './User/ProfilePage';
+
+const AppRouter = (props) => {
+  return <BrowserRouter>
+    <Switch>
+        <Route exact path='/sign-up' component={isNotAuth(RegistrationPage)} />
+        <Route exact path='/sign-in' component={isNotAuth(LoginPage)} />
+        <Route exact path='/profile' component={isAuth(ProfilePage)} />
+    </Switch>
+  </BrowserRouter>;
+};
+
+export default AppRouter;

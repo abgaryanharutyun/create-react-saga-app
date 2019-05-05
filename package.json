@@ -1,6 +1,6 @@
 {
   "name": "@tidepoollabs/react-saga-app",
-  "version": "0.0.1-beta",
+  "version": "0.0.2-beta",
   "description": "Create React apps with saga ",
   "main": "index.js",
   "repository": "https://github.com/abgaryanharutyun/create-react-saga-app.git",
@@ -20,7 +20,7 @@
     "shelljs": "^0.8.3"
   },
   "bin": {
-    "react-saga-app": "./create-react-app.js"
+    "react-saga": "./create-react-app.js"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1"
